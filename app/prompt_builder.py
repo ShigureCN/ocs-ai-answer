@@ -15,7 +15,7 @@ A: correct because ... B: incorrect because ... C: incorrect because ... D: inco
 RULES:
 - single choice → one letter: {"answer":"A"}
 - multiple choice → letters joined by #: {"answer":"A#C"}
-- judgement → "A" for true/correct, "B" for false/incorrect
+- judgement → Return "正确" if the statement is true, or "错误" if false, regardless of option letters. Never return A/B for judgement questions
 - completion → fill-in text: {"answer":"Beijing"}
 - Pick ONLY from the given options.
 - If web search results are provided, reference them in your analysis.
